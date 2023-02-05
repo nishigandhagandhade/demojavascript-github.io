@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+    <!-- <h1 id='demo'></h1>
+    <button onclick="getmessage()">click now</button>
+    
+
+    <script>
+        function getmessage(){
+            document.getElementById('demo').innerHTML="hello word";
+        }
+    
+
+    </script> -->
+
+    <!-- <h1 id='demo1'>1</h1>
+    <h1 id='demo2'>2</h1>
+    <h1 id='demo3'>3</h1>
+    <h1 id='demo4'>4</h1>
+   <button onclick="loadtext()">click</button>
+
+    <script>
+        function loadtext(){
+         document.getElementsByClassName('demo').innerHTML="Its hello world"
+
+        document.getElementById('demo3').innerHTML="Its hello word";
+        }
+        
+    </script> -->
+
+    <!-- <h1 id='demo'>js contant change</h1>
+    <button onclick="myfunction()">click</button>
+
+
+
+
+    <script>
+        function myfunction(){
+            document.getElementById('demo').innerHTML="Its Hello World"
+        }
+    </script> -->
+
+       <!-- book image -->
+     <button onclick="openbook()">open book</button>
+
+     <img src="./closebook.jpg" alt="closebook" height="300px" width="300px" id='book'>
+
+     <button onclick="closebook()">close book</button>
+      <!-- book image -->
+
+      <!-- window image  -->
+        <button onclick="openwindow()">open window</button>
+
+         <img src="./closewindow.jpg" alt="closewindow" height="300px" width="300px" id='window'>
+
+         <button onclick="closewindow()">close window</button><br>
+      <!-- window image  -->
+
+      <!-- mobile image  -->
+      <button onclick="laptop()">image2</button>
+
+      <img src="./mobile.jpg" alt="mobile" height="300px" width="200px" id='change'>
+     
+      <button onclick="mobile()">image1</button>
+
+     <!-- mobile image  -->
+     <h1 id='text'>hello javascript</h1>
+
+     <button onclick="myfunction()">click change color</button>
+
+     <button onclick="itfuction()">click back</button>
+
+     <button onclick="onfunction()">pop-up</button>
+
+     <!-- date time  -->
+     <h1 id='demo'></h1>
+
+     <button onclick="datefunction()">date time</button>
+
+     <button onclick="hidetime()">date hide</button> 
+
+     <button onclick="showtime()">show hide</button> 
+      <!-- date time  -->
+
+
+
+    <script>
+        // book function
+        function openbook(){
+
+            document.getElementById('book').src="./openbook.jpg";
+        }
+        function closebook(){
+            document.getElementById('book').src="./closebook.jpg";
+        }
+
+        // window function 
+        function openwindow(){
+            document.getElementById('window').src="./openwindow.jpg";
+        }
+        function closewindow(){
+            document.getElementById('window').src="./closewindow.jpg";
+        }
+        // image change 
+        function laptop(){
+            document.getElementById('change').src="./laptop.jpg";
+        }
+        function mobile(){
+            document.getElementById('change').src="./mobile.jpg";
+        }
+       // text color change 
+       function myfunction(){
+        document.getElementById('text').style.fontSize='40px';
+        document.getElementById('text').style.color='red';
+        document.getElementById('text').style.backgroundColor='yellow'
+       }
+       function itfuction(){
+        document.getElementById('text').style.fontSize='35px';
+        document.getElementById('text').style.color='black';
+        document.getElementById('text').style.backgroundColor='white'
+       }
+       //  pop-up 
+       function onfunction(){
+        window.alert('welcome to the javascript')
+       }
+       //    date function 
+       function datefunction(){
+        document.getElementById('demo').innerHTML=Date();
+       }
+       function hidetime(){
+        document.getElementById('demo').style.display='none';
+       }
+       function showtime(){
+        document.getElementById('demo').style.display='block';
+       }
+    </script>
+</body>
+</html>
